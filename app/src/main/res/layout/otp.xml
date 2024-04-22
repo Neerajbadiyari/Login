@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="02"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:paddingTop="40dp"
+
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/back"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="20dp"
+            android:text="Enter Your "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Verification Code"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="20dp"
+            android:text="We Have Send The Verification Code To Your Mobile Number"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/number"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_marginEnd="40dp"
+            android:layout_marginStart="40dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/ed1"
+                android:maxLength="1"
+                android:inputType="number"
+                android:layout_marginEnd="12dp"
+                android:background="@color/grey"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/ed2"
+                android:maxLength="1"
+                android:inputType="number"
+                android:layout_marginEnd="12dp"
+                android:background="@color/grey"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/ed3"
+                android:maxLength="1"
+                android:inputType="number"
+                android:layout_marginEnd="12dp"
+                android:background="@color/grey"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/ed4"
+                android:maxLength="1"
+                android:inputType="number"
+
+                android:background="@color/grey"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+
+            android:id="@+id/submit"
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Don't Receive  OTP? "
+            />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="4dp"
+
+                android:textSize="14sp"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:text="Resend"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

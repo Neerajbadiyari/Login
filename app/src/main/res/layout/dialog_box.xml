@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginEnd="18dp"
+    android:layout_marginStart="18dp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Your Confirmation code is"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="below -- Enter it . And We'll Help"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="You Get Sign In"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:layout_marginEnd="18dp"
+        android:layout_marginStart="18dp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:id="@+id/ed1"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginEnd="2dp"
+            android:background="@color/grey"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:id="@+id/ed2"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginEnd="2dp"
+            android:background="@color/grey"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:id="@+id/ed3"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginEnd="2dp"
+            android:background="@color/grey"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:id="@+id/ed4"
+            android:maxLength="1"
+            android:inputType="number"
+            android:layout_marginEnd="2dp"
+            android:background="@color/grey"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_marginBottom="20dp"
+        android:background="@color/black"
+        android:id="@+id/ok"/>
+</LinearLayout>
